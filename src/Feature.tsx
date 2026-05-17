@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { MeshConfig, YRoom } from "@baditaflorin/mesh-common";
+import { MeshNameInput, type MeshConfig, type YRoom } from "@baditaflorin/mesh-common";
 import QRCode from "qrcode";
 import jsQR from "jsqr";
 
@@ -165,11 +165,11 @@ function Body({ room, config }: { room: YRoom; config: MeshConfig }) {
     <div className="qs-screen">
       <header className="qs-header">
         <h1>qr snake</h1>
-        <input
+        <MeshNameInput
           className="qs-name"
-          placeholder="your name (optional)"
           value={name}
-          onChange={(e) => setName(e.target.value)}
+          onChange={setName}
+          placeholder="your name (optional)"
           maxLength={32}
         />
         <p className="qs-status">
