@@ -1,7 +1,7 @@
 # mesh-qr-snake
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-qr-snake-22a6b3)](https://baditaflorin.github.io/mesh-qr-snake/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-qr-snake/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-qr-snake/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Daisy-chain QR around a circle of phones — payload walks zero-network
